@@ -3,7 +3,7 @@ apiVersion: v1
 data:
   sidecar.automountServiceAccountToken: "true"
   sidecar.container: |
-    image: artifacts.iflytek.com/docker-private/atp/argo-volcano-executor-plugin:v300536
+    image: s1edaregistry.azurecr.io/plugin/argo-volcano-executor-plugin:latest
     name:  volcano-executor-plugin
     args:
       - server
